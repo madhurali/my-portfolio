@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Internship Portfolio</title>
+  <link rel="manifest" href="manifest.json">
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('service-worker.js').then(function (registration) {
+          console.log('ServiceWorker registration successful with scope: ', registration.scope);
+        }, function (err) {
+          console.log('ServiceWorker registration failed: ', err);
+        });
+      });
+    }
+  </script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; background: #f8f9fa; color: #333; }
+    header { background: #007bff; color: white; padding: 1rem 2rem; text-align: center; }
+    nav a { margin: 0 1rem; color: white; text-decoration: none; }
+    section { padding: 2rem; }
+    .container { max-width: 1000px; margin: auto; }
+    .card { background: white; padding: 1.5rem; margin: 1rem 0; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    footer { text-align: center; padding: 1rem; background: #343a40; color: white; }
+    .btn { display: inline-block; padding: 0.5rem 1rem; background: #007bff; color: white; text-decoration: none; border-radius: 5px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Madhura's Internship Diary</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#diary">Diary</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="about" class="container">
+  <h2>About Me</h2>
+  <div class="card">
+    <p>Hello! I'm Madhura, a student currently doing my internship at Tantrata Solutions Pvt. Ltd. This portfolio showcases my daily tasks, learnings, and progress throughout the internship.</p>
+  </div>
+</section>
+
+<section id="diary" class="container">
+  <h2>Internship Diary</h2>
+  <div class="card">
+    <h3>Day 1</h3>
+    <p>Explored the company's products and understood the basics of AI integration.</p>
+  </div>
+  <div class="card">
+    <h3>Day 2</h3>
+    <p>Created a report on Autonomous Business Assistant (COO), and gave an online test in Python and HTML.</p>
+  </div>
+</section>
+
+<section id="projects" class="container">
+  <h2>Projects</h2>
+  <div class="card">
+    <h3>AI in Company Departments</h3>
+    <p>Prepared a report explaining AI tools used in HR, Finance, Marketing, and Operations, including benefits and applications.</p>
+  </div>
+  <div class="card">
+    <h3>WordPress Website Study</h3>
+    <p>Learned about plugins, themes, and customizations in WordPress for web development.</p>
+  </div>
+</section>
+
+<section id="contact" class="container">
+  <h2>Contact</h2>
+  <div class="card">
+    <p>Email: madhura@example.com</p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/madhura" target="_blank">linkedin.com/in/madhura</a></p>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 Madhura Lipare | Internship Portfolio</p>
+</footer>
+
+</body>
+</html>
