@@ -7,7 +7,7 @@
   "background_color": "#ffffff",
   "theme_color": "#007bff",
   "icons": [{
-    "src": "https://png.pngtree.com/png-vector/20210313/ourmid/pngtree-letter-m-logo-png-png-image_3045041.jpg",
+    "src": "file:///Users/madhura/Downloads/logo.png",
     "type": "image/png",
     "sizes": "192x192"
   }]
